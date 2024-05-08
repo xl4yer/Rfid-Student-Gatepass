@@ -1,0 +1,418 @@
+﻿@page "/"
+@using TimeOut.Models
+@using Microsoft.JSInterop
+@inject ISnackbar Snackbar
+@using System.Net.Http.Headers
+@inject ILocalStorageService localStorage
+@inject NavigationManager Nav
+@inject IJSRuntime JSRuntime
+@inject ISnackbar snackBar
+@inject HttpClient http
+
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    /* Responsive Styles */
+    @@media (max-width: 600px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .clock {
+            font-size: 24px;
+            top: 0;
+        }
+
+        .con {
+            font-size: 20px;
+            font-family: Orbitron;
+        }
+    }
+
+</style>
+
+<div style="position: absolute; top: 20; left: 50%; transform: translateX(-50%); text-align: center; color:white" class="clock">
+    <br /><br /><br />
+    <h3 style="font-family: Orbitron">-TIME OUT-</h3>
+    <div id="MyClockDisplay" class="clock" style="font-size:50px;font-family: Orbitron"></div>
+</div>
+
+<script>
+    function showTime() {
+        var date = new Date();
+        var h = date.getHours(); // 0 - 23
+        var m = date.getMinutes(); // 0 - 59
+        var s = date.getSeconds(); // 0 - 59
+        var session = "AM";
+
+        if (h == 0) {
+            h = 12;
+        }
+
+        if (h > 12) {
+            h = h - 12;
+            session = "PM";
+        }
+
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+
+        var time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("MyClockDisplay").innerText = time;
+        document.getElementById("MyClockDisplay").textContent = time;
+        setTimeout(showTime, 1000);
+    }
+
+    showTime();
+</script>
+
+<section class="text-center">
+    <div class="p-5 bg-image" style="background-image: url('171.jpg'); height: 300px;"></div>
+    <div class="card mx-4 mx-md-5 shadow-5-strong" style="margin-top: -100px; height:500px; background: hsla(0, 0%, 100%, 0.8); backdrop-filter: blur(30px);">
+
+        <div class="card-body py-5 px-md-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <MudInput T="string"
+                              @bind-Value="@xattendance.studID"
+                              Label="Student ID"
+                              Variant="Variant.Outlined"
+                              Margin="Margin.Dense"
+                              @onkeypress="HandleKeyPress"
+                              AutoFocus
+                              @ref="inputElement"
+                              class="transparent-input"
+                              style="opacity: 0; pointer-events: none;">
+                    </MudInput>
+                    <div class="container">
+
+                        @if (attendanceList != null && attendanceList.Any())
+                        {
+                            @foreach (var attendance in attendanceList)
+                            {
+                                <div class="ma-5">
+                                    @if (attendance.photo != null)
+                                    {
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div style="padding-right:100px;">
+                                                    <img src="data:image/bmp;base64,@(Convert.ToBase64String(attendance.photo))"
+                                                         style="width: 250px; height: 250px; border-radius:10px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 con">
+                                                <MudText Align="Align.Center" Style="font-size:20px;">Student Id No. <u style="font-family:Orbitron">@attendance.studID</u></MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px;">Student Name : <u style="font-family:Orbitron">@attendance.fullname</u></MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px;">Grade Level :<u style="font-family:Orbitron">@attendance.gradelvl</u></MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px;">Time out : <u style="font-family:Orbitron">@(attendance.timeOUT?.ToString("HH:mm:ss") ?? "")</u></MudText>
+                                                <br />
+                                                <MudText Align="Align.Center" Style="font-size:20px;">Date : <u style="font-family:Orbitron">@(attendance.timeOUT?.ToString("MMMM dd, yyyy") ?? "")</u></MudText>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div style="padding-right:100px;">
+                                                    <img src="avatar.png" style="width: 250px; height: 250px; border-radius:10px">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 con">
+
+                                                <MudText Align="Align.Center" Style="font-size:20px; ">Student Id No. : --- ---- --- --- ---- ---</MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px; ">Student Name : --- ---- --- --- ---- ---</MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px; ">Grade Level : --- ---- --- --- ---- ---</MudText>
+                                                <br>
+                                                <MudText Align="Align.Center" Style="font-size:20px; ">Time out : --- ---- --- --- ---- ---</MudText>
+                                                <br />
+                                                <MudText Align="Align.Center" Style="font-size:20px; ">Date : --- ---- --- --- ---- ---</MudText>
+
+
+                                            </div>
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        }
+                        else
+                        {
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div style="padding-right:100px;">
+                                        <img src="avatar.png" style="width: 250px; height: 250px; border-radius:10px">
+                                    </div>
+                                </div>
+                                <div class="col-md-8 con">
+
+                                    <MudText Align="Align.Center" Style="font-size:20px; ">Student Id No. : --- ---- --- --- ---- ---</MudText>
+                                    <br>
+                                    <MudText Align="Align.Center" Style="font-size:20px; ">Student Name : --- ---- --- --- ---- ---</MudText>
+                                    <br>
+                                    <MudText Align="Align.Center" Style="font-size:20px; ">Grade Level : --- ---- --- --- ---- ---</MudText>
+                                    <br>
+                                    <MudText Align="Align.Center" Style="font-size:20px; ">Time out : --- ---- --- --- ---- ---</MudText>
+                                    <br />
+                                    <MudText Align="Align.Center" Style="font-size:20px; ">Date : --- ---- --- --- ---- ---</MudText>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@code {
+    private bool fixed_header = true;
+    private bool fixed_footer = false;
+    private string Text { get; set; } = "";
+    [Parameter] public attendance xattendance { get; set; } = new attendance();
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    private MudInput<string>? inputElement;
+    private attendance[]? attendanceList;
+    private HubConnection? hubConnection;
+    List<students>? xstud;
+    private string fullname { get; set; } = "";
+    private string gcontact { get; set; } = "";
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(Nav.ToAbsoluteUri("https://localhost:7033/hub"))
+            .Build();
+
+        hubConnection.On("client", async () =>
+        {
+            await LoadAttendance();
+            StateHasChanged();
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadAttendance();
+        }
+    }
+
+    private async Task HandleKeyPress(KeyboardEventArgs args)
+    {
+        string clipboardText = await JSRuntime.InvokeAsync<string>("navigator.clipboard.readText");
+        string result = clipboardText.Trim();
+        if (args.Key == "Enter")
+        {
+            await Submit();
+        }
+    }
+
+    private async Task LoadAttendance()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("SendClient");
+        }
+        try
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri($"https://localhost:7033/");
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                    await localStorage.GetItemAsStringAsync("token"));
+                HttpResponseMessage response = await client.GetAsync($"api/Attendance/TimeOut");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string contentrespose = await response.Content.ReadAsStringAsync();
+                    attendanceList = JsonConvert.DeserializeObject<attendance[]>(contentrespose);
+                    await inputElement.FocusAsync();
+                }
+                else
+                {
+                    snackBar.Add($"Error! Server is Offline", Severity.Warning);
+                    await inputElement.FocusAsync();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+        }
+
+        StateHasChanged();
+    }
+
+    public async Task GetStudent()
+    {
+        fullname = await localStorage.GetItemAsStringAsync("fullname");
+        gcontact = await localStorage.GetItemAsStringAsync("gcontact");
+    }
+
+    private async Task GetStudInfo()
+    {
+        xstud = new List<students>();
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"https://localhost:7033/");
+            HttpResponseMessage json = await client.GetAsync($"api/Student/SearchStudID?search={xattendance.studID}");
+            if (json.IsSuccessStatusCode)
+            {
+                string content = await json.Content.ReadAsStringAsync();
+                List<students> code = JsonConvert.DeserializeObject<List<students>>(content);
+
+                if (code.Count > 0)
+                {
+                    xstud.Add(new students()
+                        {
+                            studID = code[0].studID,
+                            fullname = code[0].fullname,
+                            gcontact = code[0].gcontact
+                        });
+                    await localStorage.SetItemAsStringAsync("fullname", xstud[0].fullname);
+                    await localStorage.SetItemAsStringAsync("gcontact", xstud[0].gcontact);
+                    await GetStudent();
+                }
+                else
+                {
+                    Snackbar.Add($"Student ID No. Not Found!", Severity.Warning);
+                    await LoadAttendance();
+                    await JSRuntime.InvokeVoidAsync("document.activeElement.blur");
+                    await Clear();
+                    await inputElement.FocusAsync();
+                }
+            }
+        }
+    }
+
+    private async Task Submit()
+    {
+        await GetStudInfo();
+        xstud = new List<students>();
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"https://localhost:7033/");
+            HttpResponseMessage json = await client.GetAsync($"api/Attendance/CheckTimeOut?studID={xattendance.studID}&timeIn={DateTime.Now.ToString("d")}");
+            if (json.IsSuccessStatusCode)
+            {
+                string jsonContent = await json.Content.ReadAsStringAsync();
+                List<students> studentsList = JsonConvert.DeserializeObject<List<students>>(jsonContent);
+
+                if (studentsList.Count > 0)
+                {
+                    Snackbar.Add($"You're Already Logged Out!", Severity.Warning);
+                    await LoadAttendance();
+                    await JSRuntime.InvokeVoidAsync("document.activeElement.blur");
+                    await Clear();
+                    await inputElement.FocusAsync();
+                }
+                else
+                {
+                    await AddAttendance();
+                }
+            }
+        }
+    }
+
+    private async Task AddAttendance()
+    {
+        try
+        {
+            var _attendance = new attendance
+                {
+                    studID = xattendance.studID
+                };
+
+            using (HttpClient client2 = new HttpClient())
+            {
+                client2.BaseAddress = new Uri("https://localhost:7033/");
+                var jsonBody = JsonConvert.SerializeObject(_attendance);
+                HttpContent requestBody = new StringContent(jsonBody);
+                requestBody.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                client2.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                    await localStorage.GetItemAsStringAsync("token"));
+                HttpResponseMessage response = await client2.PutAsync("api/Attendance/UpdateAttendance", requestBody);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseContent = await response.Content.ReadAsStringAsync();
+                    int i = JsonConvert.DeserializeObject<int>(responseContent);
+
+                    if (i > 0)
+                    {
+                        StateHasChanged();
+                        await LoadAttendance();
+                        // await PhilSms();
+                        await JSRuntime.InvokeVoidAsync("document.activeElement.blur");
+                        await Clear();
+                        await inputElement.FocusAsync();
+                    }
+                }
+                else
+                {
+                    StateHasChanged();
+                    Snackbar.Add($"Warning: {response.ReasonPhrase}", Severity.Warning);
+                    await JSRuntime.InvokeVoidAsync("document.activeElement.blur");
+                    await Clear();
+                    await inputElement.FocusAsync();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            // Handle exception
+        }
+    }
+
+    private async Task Clear()
+    {
+        xattendance.studID = null;
+    }
+
+    public async Task PhilSms()
+    {
+        var url = "https://app.philsms.com/api/v3/sms/send";
+        var accessToken = "410|TrkvqjNSmsbAcqGTd1NtvhrGX4ZrkGcHvjSkT7cV";
+        var request = new
+        {
+            recipient = $"63{gcontact}",
+            sender_id = "PhilSMS",
+            type = "plain",
+            message = $"Good Day! {fullname} is now out of the school premises at  {DateTime.Now.ToString("h:mm tt")}, {DateTime.Now.ToString("MMMM dd, yyyy")}. Have a great day! "
+        };
+
+        var json = JsonConvert.SerializeObject(request);
+        var content = new StringContent(json);
+        http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        var response = await http.PostAsync(url, content);
+        if (response.IsSuccessStatusCode)
+        {
+            Console.WriteLine("Successfully Sent");
+        }
+        else
+        {
+            Console.WriteLine("Failed to Send");
+        }
+    }
+}

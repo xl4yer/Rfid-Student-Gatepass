@@ -1,0 +1,145 @@
+﻿@inject ILocalStorageService localStorage
+@using System.Net.Http.Headers
+@using Rfid.Models
+@inject ISnackbar snackBar
+@inject NavigationManager Nav
+@inject ISnackbar Snackbar
+@inject ILocalStorageService localStorage
+@inject NavigationManager Nav
+
+<MudDialog TitleClass="mud-primary" DisableSidePadding="true">
+    <TitleContent>
+        <MudText Typo="Typo.h6" Style="color:white">
+            Change Password
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+        <MudContainer Style="max-height: 500px;">
+            <p1>Username</p1>
+            <MudTextField @bind-Value="@_username" ReadOnly Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
+            <br />
+            <p1>New Password</p1>
+            <MudTextField @bind-Value="@xuser.password" For="@(() => xuser.password)" Margin="Margin.Dense" Variant="Variant.Outlined" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="Click" AdornmentAriaLabel="Show Password" />
+            <br />
+            <p1>Confirm Password</p1>
+            <MudTextField @bind-Value="@password2" For="@(() => password2)" Margin="Margin.Dense" Variant="Variant.Outlined" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="Click" AdornmentAriaLabel="Show Password" />
+            <br />
+        </MudContainer>
+    </DialogContent>
+    <DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Secondary" Size="Size.Small" @onclick="Submit">Update</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+    [Parameter] public users xuser { get; set; } = new users();
+    public string Text = "";
+    public string password2 = "";
+    InputType PasswordInput = InputType.Password;
+    string PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+    bool isShow;
+    bool hide;
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+    public string _userID = "";
+    public string _name = "";
+    public string _username = "";
+    public string _password = "";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            _userID = await localStorage.GetItemAsStringAsync("userID");
+            _name = await localStorage.GetItemAsStringAsync("name");
+            _username = await localStorage.GetItemAsStringAsync("username");
+            _password = await localStorage.GetItemAsStringAsync("password");
+            StateHasChanged();
+        }
+    }
+
+    void Clear()
+    {
+        xuser.password = "";
+        password2 = "";
+    }
+
+    void Cancel()
+    {
+        MudDialog.Cancel();
+    }
+    void Click()
+    {
+        @if (isShow)
+        {
+            isShow = false;
+            PasswordInputIcon = Icons.Material.Filled.VisibilityOff;
+            PasswordInput = InputType.Password;
+        }
+        else
+        {
+            isShow = true;
+            PasswordInputIcon = Icons.Material.Filled.Visibility;
+            PasswordInput = InputType.Text;
+        }
+    }
+
+    private async Task Submit()
+    {
+        if (xuser.password != password2)
+        {
+            snackBar.Add($"Error: Password Does Not Match", Severity.Warning);
+        }
+        else
+        {
+            int i = 0;
+            try
+            {
+                var x = new users
+                    {
+                        userID = _userID,
+                        name = _name,
+                        username = _username,
+                        password = xuser.password
+                    };
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri($"{Nav.BaseUri}");
+                    var json = JsonConvert.SerializeObject(x);
+                    HttpContent content = new StringContent(json);
+                    content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                    await localStorage.GetItemAsStringAsync("token"));
+                    HttpResponseMessage response = await client.PutAsync($"api/User/Settings", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string contentresponse = await response.Content.ReadAsStringAsync();
+                        i = JsonConvert.DeserializeObject<int>(contentresponse);
+                        if (i > 0)
+                        {
+                            await InvokeAsync(async () =>
+                            {
+                                snackBar.Add($"Done: Successfully Updated!", Severity.Success);
+                                await InvokeAsync(StateHasChanged);
+                                MudDialog.Cancel();
+                            });
+                        }
+                    }
+                    else
+                    {
+                        await InvokeAsync(async () =>
+                        {
+                            snackBar.Add($"Error!", Severity.Error);
+                            StateHasChanged();
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+    }
+}

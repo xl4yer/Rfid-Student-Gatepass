@@ -1,0 +1,31 @@
+﻿<MudDrawer @bind-Open="SideBarOpen" Elevation="1">
+	<br />
+	<br />
+	<br />
+	<br />
+	<MudDrawerHeader Class="img" Style="margin-left:80px;">
+		<MudAvatar Color="Color.Inherit" Style="height:150px; width:150px;" Image="logo.jpg" />
+	</MudDrawerHeader>
+	<br />
+	<br />
+	<br />
+	<br />
+	<MudNavMenu>
+		<MudNavLink Href="/dashboard" Icon="@Icons.Filled.List" IconColor="Color.Primary">DAshboard</MudNavLink>
+		<MudNavLink Href="/students" Icon="@Icons.Filled.People" IconColor="Color.Primary">Students</MudNavLink>
+		<MudNavLink Href="/attendance" Icon="@Icons.Filled.ViewList" IconColor="Color.Primary">Attendance</MudNavLink>
+	</MudNavMenu>
+</MudDrawer>
+
+<style>
+	.img {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+</style>
+
+@code {
+	[Parameter]
+	public bool SideBarOpen { get; set; }
+}

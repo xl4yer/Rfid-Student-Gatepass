@@ -1,0 +1,266 @@
+﻿@page "/students"
+@inject NavigationManager Nav
+@inject ILocalStorageService localStorage
+@inject ISnackbar snackBar
+@inject IDialogService dialogService
+@using System.Net.Http.Headers
+@using Rfid.Models;
+@inject IDialogService Dialog
+@inject IJSRuntime IJS
+
+<PageTitle>Student Record</PageTitle>
+
+@if (role == "Administrator")
+{
+    <MudGrid Class="mb-3">
+        <MudGrid Class="mb-3">
+
+            <MudItem xs="12" sm="6" md="4" lg="3">
+                <MudToolBar Justify="Justify.End">
+                    <MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="(e => Refresh())">Refresh</MudButton> <span>&nbsp;</span>
+                    <MudButton Color="Color.Tertiary" Variant="Variant.Filled" @onclick="(e => Add())">Add</MudButton>
+                </MudToolBar>
+            </MudItem>
+            <MudItem xs="12" sm="6" md="4" lg="3">
+                <MudToolBar>
+                    <MudText Typo="Typo.body1" Style="text-transform:uppercase">Student Information</MudText>
+                </MudToolBar>
+            </MudItem>
+            <MudItem xs="12" sm="12" md="4" lg="6">
+                <MudToolBar Justify="Justify.End">
+                    <MudTextField @bind-Value="txtsearch" Clearable TextChanged="Search" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Tertiary" Label="Search" Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
+                </MudToolBar>
+            </MudItem>
+        </MudGrid>
+    </MudGrid>
+
+    @if (studentList != null && studentList.Any())
+    {
+        <MudTable Class="ma-5" Dense="true" Hover="true" Items="@studentList" HorizontalScrollbar="true" FixedHeader="@fixed_header" FixedFooter="@fixed_footer" Height="@(fixed_header || fixed_footer ? "500px" : "")">
+            <ToolBarContent>
+                <MudToolBar>
+                    <MudSpacer />
+                    <MudLink class="export" Href="https://localhost:7033/api/Student/StudentReport"><span>></span>Export to Excel</MudLink>
+                </MudToolBar>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh Style="height:50px;">Photo</MudTh>
+                <MudTh>ID No.</MudTh>
+                <MudTh>Name</MudTh>
+                <MudTh>Level</MudTh>
+                <MudTh>Gender</MudTh>
+                <MudTh>Address</MudTh>
+                <MudTh>Contact</MudTh>
+                <MudTh></MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd id="rows" DataLabel="Photo"><img src="data:image/bmp;base64, @(Convert.ToBase64String(@context.photo))" class="img" /></MudTd>
+                <MudTd DataLabel="Name">@context.studID</MudTd>
+                <MudTd DataLabel="Name">@context.fullname</MudTd>
+                <MudTd DataLabel="Grade Level">@context.gradelvl</MudTd>
+                <MudTd DataLabel="Gender">@context.gender</MudTd>
+                <MudTd DataLabel="Address">@context.address</MudTd>
+                <MudTd DataLabel="Contact"><span>0</span>@context.contact</MudTd>
+                <MudTd>
+                    <MudFab Color="Color.Warning" StartIcon="@Icons.Material.Filled.Edit" Size="Size.Small" @onclick="(e => Edit(context.studID))" />
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+    }
+    else
+    {
+        <style>
+            .centered {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+
+        <div class="centered">
+            <MudProgressCircular Color="Color.Secondary" Style="height:70px;width:70px;" Indeterminate="true" />
+        </div>
+    }
+}
+
+@if (role == "Teacher")
+{
+    <MudGrid Class="mb-3">
+        <MudGrid Class="mb-3">
+            <MudItem xs="12" sm="6" md="4" lg="3">
+                <MudToolBar Justify="Justify.End">
+                    <MudButton Color="Color.Primary" Variant="Variant.Filled" @onclick="(e => Refresh())">Refresh</MudButton>
+                </MudToolBar>
+            </MudItem>
+            <MudItem xs="12" sm="6" md="4" lg="3">
+                <MudToolBar>
+                    <MudText Typo="Typo.body1" Style="text-transform:uppercase">Student Information</MudText>
+                </MudToolBar>
+            </MudItem>
+            <MudItem xs="12" sm="12" md="4" lg="6">
+                <MudToolBar Justify="Justify.End">
+                    <MudTextField @bind-Value="txtsearch" Clearable TextChanged="Search" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Tertiary" Label="Search" Variant="Variant.Outlined" Margin="Margin.Dense"></MudTextField>
+                </MudToolBar>
+            </MudItem>
+        </MudGrid>
+    </MudGrid>
+
+    @if (studentList != null && studentList.Any())
+    {
+        <MudTable Class="ma-5" Dense="true" Hover="true" Items="@studentList" HorizontalScrollbar="true" FixedHeader="@fixed_header" FixedFooter="@fixed_footer" Height="@(fixed_header || fixed_footer ? "500px" : "")">
+            <ToolBarContent>
+                <MudToolBar>
+                    <MudSpacer />
+                    <a href="https://localhost:7033/api/Student/StudentReport" target="_blank" class="export">Export to Excel</a>
+                </MudToolBar>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh Style="height:50px;">Photo</MudTh>
+                <MudTh>Student ID No.</MudTh>
+                <MudTh>Name</MudTh>
+                <MudTh>Grade Level</MudTh>
+                <MudTh>Gender</MudTh>
+                <MudTh>Address</MudTh>
+                <MudTh>Contact</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd id="rows" DataLabel="Photo"><img src="data:image/bmp;base64, @(Convert.ToBase64String(@context.photo))" class="img" /></MudTd>
+                <MudTd DataLabel="Name">@context.studID</MudTd>
+                <MudTd DataLabel="Name">@context.fullname</MudTd>
+                <MudTd DataLabel="Grade Level">@context.gradelvl</MudTd>
+                <MudTd DataLabel="Gender">@context.gender</MudTd>
+                <MudTd DataLabel="Address">@context.address</MudTd>
+                <MudTd DataLabel="Contact"><span>0</span>@context.contact</MudTd>
+            </RowTemplate>
+        </MudTable>
+    }
+    else
+    {
+        <style>
+            .centered {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+        </style>
+
+        <div class="centered">
+            <MudProgressCircular Color="Color.Secondary" Style="height:70px;width:70px;" Indeterminate="true" />
+        </div>
+    }
+}
+
+
+
+<style>
+    .export {
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+</style>
+
+@code {
+    private string txtsearch { get; set; }
+    students[]? studentList;
+    bool fixed_header = true;
+    bool fixed_footer = false;
+    public string role = "";
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadStudents();
+            role = await IJS.InvokeAsync<string>("localStorage.getItem", "role");
+            StateHasChanged();
+        }
+    }
+
+
+    private async Task LoadStudents()
+    {
+        try
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri($"{Nav.BaseUri}");
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                    await localStorage.GetItemAsStringAsync("token"));
+                HttpResponseMessage response = await client.GetAsync($"api/student/students");
+                if (response.IsSuccessStatusCode)
+                {
+                    string contentResponse = await response.Content.ReadAsStringAsync();
+                    studentList = JsonConvert.DeserializeObject<students[]>(contentResponse);
+                    StateHasChanged();
+                }
+                else
+                {
+                    snackBar.Add($"Warning: {response.StatusCode}", Severity.Warning);
+                    StateHasChanged();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
+    }
+
+    private async Task Add()
+    {
+        var parameters = new DialogParameters();
+        parameters.Add("stud", new students());
+        var dialog = await Dialog.Show<AddStudent>("Add Student", parameters).Result;
+    }
+    private async Task Edit(string id)
+    {
+        var parameters = new DialogParameters();
+        var update = studentList.FirstOrDefault(_ => _.studID == id);
+        parameters.Add("stud", update);
+        var dialog = await Dialog.Show<UpdateStudent>("Update Student", parameters).Result;
+    }
+    private async Task Refresh()
+    {
+        await LoadStudents();
+    }
+
+    public async Task Search()
+    {
+        if (string.IsNullOrWhiteSpace(txtsearch))
+        {
+            await LoadStudents();
+            StateHasChanged();
+            return;
+        }
+
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                await localStorage.GetItemAsStringAsync("token"));
+            HttpResponseMessage response = await client.GetAsync($"api/Student/SearchStudent?search={txtsearch}");
+            if (response.IsSuccessStatusCode)
+            {
+                string contentResponse = await response.Content.ReadAsStringAsync();
+                studentList = JsonConvert.DeserializeObject<students[]>(contentResponse);
+                StateHasChanged();
+            }
+            else
+            {
+                snackBar.Add($"Warning: {response.StatusCode}", Severity.Warning);
+                StateHasChanged();
+            }
+        }
+    }
+}
+

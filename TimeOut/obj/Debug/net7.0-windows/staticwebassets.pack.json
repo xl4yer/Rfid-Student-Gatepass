@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\1.jpg",
+      "PackagePath": "staticwebassets\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\171.jpg",
+      "PackagePath": "staticwebassets\\171.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\2.jpg",
+      "PackagePath": "staticwebassets\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\avatar.png",
+      "PackagePath": "staticwebassets\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\bg.jpg",
+      "PackagePath": "staticwebassets\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\bg2.png",
+      "PackagePath": "staticwebassets\\bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\card.png",
+      "PackagePath": "staticwebassets\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\logo.jpg",
+      "PackagePath": "staticwebassets\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\TimeOut\\wwwroot\\logo2.png",
+      "PackagePath": "staticwebassets\\logo2.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.TimeOut.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.build.TimeOut.props",
+      "PackagePath": "build\\TimeOut.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.buildMultiTargeting.TimeOut.props",
+      "PackagePath": "buildMultiTargeting\\TimeOut.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0-windows\\staticwebassets\\msbuild.buildTransitive.TimeOut.props",
+      "PackagePath": "buildTransitive\\TimeOut.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

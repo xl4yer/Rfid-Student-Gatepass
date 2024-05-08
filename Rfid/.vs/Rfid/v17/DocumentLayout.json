@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\Rfid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD5CAF25-1588-4111-BC17-E1ECC04B62F0}|Rfid.csproj|c:\\users\\xlayer\\documents\\dumps\\new folder\\rfid\\rfid\\pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CD5CAF25-1588-4111-BC17-E1ECC04B62F0}|Rfid.csproj|solutionrelative:pages\\settings.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Settings.razor",
+              "DocumentMoniker": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\Rfid\\Pages\\Settings.razor",
+              "RelativeDocumentMoniker": "Pages\\Settings.razor",
+              "ToolTip": "C:\\Users\\Xlayer\\Documents\\dumps\\New folder\\Rfid\\Rfid\\Pages\\Settings.razor",
+              "RelativeToolTip": "Pages\\Settings.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T07:56:45.01Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

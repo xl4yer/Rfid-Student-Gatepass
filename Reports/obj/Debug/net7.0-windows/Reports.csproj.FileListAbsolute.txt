@@ -1,0 +1,16 @@
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\bin\Debug\net7.0-windows\Reports.exe
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\bin\Debug\net7.0-windows\Reports.deps.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\bin\Debug\net7.0-windows\Reports.runtimeconfig.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\bin\Debug\net7.0-windows\Reports.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\bin\Debug\net7.0-windows\Reports.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.Form1.resources
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.csproj.GenerateResource.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.AssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\refint\Reports.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\Reports.genruntimeconfig.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Reports\obj\Debug\net7.0-windows\ref\Reports.dll

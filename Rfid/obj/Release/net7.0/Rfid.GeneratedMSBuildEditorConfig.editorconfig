@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Rfid
+build_property.RootNamespace = Rfid
+build_property.ProjectDir = C:\Users\Xlayer\source\repos\jademarkescolano\Rfid\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Xlayer\source\repos\jademarkescolano\Rfid
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/AddStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/Attendance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXR0ZW5kYW5jZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/Students.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/UpdateStudent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlU3R1ZGVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cz9oldtm8u
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/TimeIn.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGltZUluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-5ob4mz7fdz
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/TimeOut.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGltZU91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-rkr69l0i2g
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-e4y4a6gcra
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7cz4nv4ev5
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Xlayer/source/repos/jademarkescolano/Rfid/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

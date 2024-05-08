@@ -1,0 +1,46 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Nav
+@inject ILocalStorageService localStorage
+@inject IDialogService Dialog
+@using Rfid.Pages
+
+<MudLayout>
+    <AppBar OnSidebarToggled="ToggleSidebar" OnThemeToggled="ToggleTheme" />
+
+    <NavMenu SideBarOpen="_sidebarOpen" />
+
+    <MudMainContent Class="pt-16 px-16">
+        <MudContainer Class="mt-6">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+</MudLayout>
+
+<MudThemeProvider Theme="_currentTheme" />
+<MudDialogProvider FullWidth="true"
+                   CloseButton="true"
+                   MaxWidth="MaxWidth.Small"
+                   Position="DialogPosition.TopCenter" />
+<MudSnackbarProvider />
+
+@code {
+    private MudTheme _currentTheme = new MudTheme();
+    private bool _sidebarOpen = true;
+
+
+    private void ToggleTheme(MudTheme changedTheme) => _currentTheme = changedTheme;
+
+    private void ToggleSidebar() => _sidebarOpen = !_sidebarOpen;
+    private async Task Logout()
+    {
+        await localStorage.RemoveItemAsync("token");
+        Nav.NavigateTo("/");
+    }
+
+    public async Task Sett()
+    {
+        var parameters = new DialogParameters();
+        var options = new DialogOptions { MaxWidth = MaxWidth.ExtraSmall };
+        var dialog = await Dialog.Show<Settings>("Settings", parameters, options).Result;
+    }
+}

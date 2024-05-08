@@ -1,0 +1,67 @@
+﻿
+img {
+    width: 35px;
+    border-radius: 50px;
+    float: left;
+}
+
+.logout {
+    font-size: .8em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: -18px;
+    bottom: -10px;
+    overflow: hidden;
+    letter-spacing: 3px;
+    opacity: 0;
+    transition: opacity .45s;
+    -webkit-transition: opacity .35s;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    float: right;
+    padding: 12px;
+    margin: 15px;
+    color: white;
+    width: 50px;
+    transition: width .35s;
+    -webkit-transition: width .35s;
+    overflow: hidden;
+}
+
+a:hover {
+    width: 130px;
+}
+
+    a:hover .logout {
+        opacity: .9;
+    }
+
+a {
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    img {
+        width: 25px;
+    }
+
+    .button {
+        padding: 8px;
+        margin: 10px;
+        width: 40px;
+    }
+
+    a:hover {
+        width: 100px;
+    }
+
+    .logout {
+        font-size: .7em;
+        right: -12px;
+        bottom: -8px;
+    }
+}

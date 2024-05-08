@@ -1,0 +1,616 @@
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\IO.ClickSend.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\JsonSubTypes.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\RestSharp.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeIn.razor.rz.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeOut.razor.rz.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.csproj.CopyComplete
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\Source\Repos\jademarkescolano\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\IO.ClickSend.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\JsonSubTypes.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\RestSharp.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.IO.Ports.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\unix\lib\net7.0\System.IO.Ports.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.IO.Ports.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\source\repos\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeIn.razor.rz.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeOut.razor.rz.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.csproj.CopyComplete
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\source\repos\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeIn.razor.rz.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeOut.razor.rz.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.csproj.Up2Date
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\Desktop\FinalCapstone\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeIn.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeOut.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.csproj.Up2Date
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\bin\Debug\net7.0\MudBlazor.ThemeManager.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\MudBlazor.ThemeManager.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeIn.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\TimeOut.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.Up2Date
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\AspNetCore.Reporting.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\AspNetCore.ReportingServices.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.Common.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.NETCore.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.Resources.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\Dashboard.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\appsettings.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.staticwebassets.runtime.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.exe
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.deps.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.runtimeconfig.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\AspNetCore.Reporting.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\AspNetCore.ReportingServices.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\MudBlazor.ThemeManager.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.Common.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.NETCore.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.IO.Packaging.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Resources.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.Http.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.Primitives.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ZstdSharp.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Private.ServiceModel.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.AssemblyReference.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfoInputs.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.AssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.CoreCompileInputs.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.RazorAssemblyInfo.cs
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.sourcelink.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.Rfid.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.build.Rfid.props
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Rfid.props
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Rfid.props
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\Dashboard.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Pages\Index.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\bundle\Rfid.styles.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\projectbundle\Rfid.bundle.scp.css
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.csproj.Up2Date
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\refint\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.pdb
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\Rfid.genruntimeconfig.cache
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\ref\Rfid.dll
+C:\Users\Xlayer\Documents\dumps\New folder\Rfid\Rfid\obj\Debug\net7.0\scopedcss\Shared\AppBar.razor.rz.scp.css

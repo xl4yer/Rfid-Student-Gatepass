@@ -1,0 +1,439 @@
+﻿@page "/dashboard"
+@using Rfid.Models
+@inject NavigationManager Nav
+@using System.Net.Http.Headers
+@inject ILocalStorageService localStorage
+@inject ISnackbar snackBar
+
+<PageTitle>Dashboard</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-5">
+            <br />
+            <MudPaper Class="pa-4 rounded-lg" Elevation="1">
+                <MudGrid>
+                    <MudItem>
+                        <MudIcon Style="@($"color:{Colors.Red.Accent3};font-size:3rem;")" Icon="@Icons.Material.Outlined.Person" />
+                    </MudItem>
+                    <MudItem>
+                       
+                        <MudText Typo="Typo.subtitle1">Students</MudText>
+                        <MudText Typo="Typo.h4"><b>@CountStudents</b></MudText>
+                    </MudItem>
+                </MudGrid>
+            </MudPaper> <br />
+
+            <MudPaper Class="pa-4 rounded-lg" Elevation="1">
+                <MudGrid>
+                    <MudItem>
+                        <MudIcon Color="Color.Info" Style="font-size:3rem;" Icon="@Icons.Material.Outlined.CalendarToday" />
+                    </MudItem>
+                    <MudItem>
+                       
+                        <MudText Typo="Typo.subtitle1">Daily Time In</MudText>
+                        <MudText Typo="Typo.h4"><b></b>@countTimeIn</MudText>
+                    </MudItem>
+                </MudGrid>
+            </MudPaper><br />
+
+            <MudPaper Class="pa-4 rounded-lg" Elevation="1">
+                <MudGrid>
+                    <MudItem>
+                        <MudIcon Color="Color.Tertiary" Style="font-size:3rem;" Icon="@Icons.Material.Outlined.CalendarToday" />
+                    </MudItem>
+                    <MudItem>
+                       
+                        <MudText Typo="Typo.subtitle1">Daily Time Out</MudText>
+                        <MudText Typo="Typo.h4"><b></b>@countTimeOut</MudText>
+                    </MudItem>
+                </MudGrid>
+            </MudPaper>
+
+        </div>
+        <div class="col-sm-7">
+            <div>
+              
+                <MudChart ChartType="ChartType.Line" ChartSeries="@AttendancePerMonth" @bind-SelectedIndex="Index" XAxisLabels="@XAxisAttendancePerMonthLabels" Width="100%" Height="350px" ChartOptions="@Options" />
+ <center>
+                    <p1>Monthly Report</p1>
+ </center>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+@if (attendanceList != null && attendanceList.Any())
+{
+    <MudTable Class="ma-5"
+              Dense="true"
+              Hover="true"
+              Items="@attendanceList"
+              HorizontalScrollbar="true"
+              FixedHeader="@fixed_header"
+              FixedFooter="@fixed_footer"
+              Height="@(fixed_header || fixed_footer ? "500px" : "")">
+
+        <ToolBarContent>
+            <MudToolBar>
+                <MudGrid>
+
+                    <MudItem>
+                        <MudText Typo="Typo.body1" Style="font-family:Tahoma">Recent Attendance</MudText>
+                    </MudItem>
+                </MudGrid>
+            </MudToolBar>
+        </ToolBarContent>
+
+        <HeaderContent>
+            <MudTh Style="height:50px;">Photo</MudTh>
+            <MudTh>Student ID</MudTh>
+            <MudTh>Name</MudTh>
+            <MudTh>Grade Level</MudTh>
+            <MudTh>Time In</MudTh>
+            <MudTh>Time Out</MudTh>
+        </HeaderContent>
+
+        <RowTemplate>
+            <MudTd id="rows" DataLabel="Photo"><img src="data:image/bmp;base64, @(Convert.ToBase64String(@context.photo))" class="img" /></MudTd>
+            <MudTd DataLabel="Student ID">@context.studID</MudTd>
+            <MudTd DataLabel="Name">@context.fullname</MudTd>
+            <MudTd DataLabel="Grade Level">@context.gradelvl</MudTd>
+            <MudTd DataLabel="TimeIn">@context.timeIN</MudTd>
+            <MudTd DataLabel="TimeOUT">@context.timeOUT</MudTd>
+        </RowTemplate>
+    </MudTable>
+}
+else
+{
+    <p1><b><i>No Records Found</i></b></p1>
+}
+
+
+<style>
+    .img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+</style>
+
+
+
+@code
+{
+
+    public int CountStudents { get; set; } = 0;
+    public int countTimeIn { get; set; } = 0;
+    public int countTimeOut { get; set; } = 0;
+    public int InJanuary { get; set; } = 0;
+    public int InFebruary { get; set; } = 0;
+    public int InMarch { get; set; } = 0;
+    public int InApril { get; set; } = 0;
+    public int InMay { get; set; } = 0;
+    public int InJune { get; set; } = 0;
+    public int InJuly { get; set; } = 0;
+    public int InAugust { get; set; } = 0;
+    public int InSeptember { get; set; } = 0;
+    public int InOctober { get; set; } = 0;
+    public int InNovember { get; set; } = 0;
+    public int InDecember { get; set; } = 0;
+    public int OutJanuary { get; set; } = 0;
+    public int OutFebruary { get; set; } = 0;
+    public int OutMarch { get; set; } = 0;
+    public int OutApril { get; set; } = 0;
+    public int OutMay { get; set; } = 0;
+    public int OutJune { get; set; } = 0;
+    public int OutJuly { get; set; } = 0;
+    public int OutAugust { get; set; } = 0;
+    public int OutSeptember { get; set; } = 0;
+    public int OutOctober { get; set; } = 0;
+    public int OutNovember { get; set; } = 0;
+    public int OutDecember { get; set; } = 0;
+    public attendance[]? attendanceList;
+    public students[]? studentList;
+    bool fixed_header = true;
+    bool fixed_footer = false;
+    private List<ChartSeries> AttendancePerMonth = new List<ChartSeries>();
+    public ChartOptions AttendancePerMonthOptions = new ChartOptions();
+    private List<double> AttendancePerMonthValues = new List<double>();
+    private List<double> AttendancePerMonthValues_2 = new List<double>();
+    private int Index = -1;
+    public ChartOptions Options = new ChartOptions();
+
+    private string[] XAxisAttendancePerMonthLabels = new string[]
+     {
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+     };
+
+    public async Task UpdateChartData()
+    {
+        AttendancePerMonthValues = new List<double> {
+            InJanuary,
+            InFebruary,
+            InMarch,
+            InApril,
+            InMay,
+            InJune,
+            InJuly,
+            InAugust,
+            InSeptember,
+            InOctober,
+            InNovember,
+            InDecember };
+
+        AttendancePerMonthValues_2 = new List<double> {
+            OutJanuary,
+            OutFebruary,
+            OutMarch,
+            OutApril,
+            OutMay,
+            OutJune,
+            OutJuly,
+            OutAugust,
+            OutSeptember,
+            OutOctober,
+            OutNovember,
+            OutDecember
+};
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await loadAttendance();
+        }
+    }
+
+    private async Task loadAttendance()
+    {
+
+        try
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                client.BaseAddress = new Uri($"{Nav.BaseUri}");
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
+                await localStorage.GetItemAsStringAsync("token"));
+                HttpResponseMessage response = await client.GetAsync($"api/attendance/Tattendance");
+                if (response.IsSuccessStatusCode)
+                {
+                    string contentrespose = await response.Content.ReadAsStringAsync();
+                    attendanceList = JsonConvert.DeserializeObject<attendance[]>(contentrespose);
+                    StateHasChanged();
+                }
+                else
+                {
+                    snackBar.Add($"Warning: {response.StatusCode}", Severity.Warning);
+                    StateHasChanged();
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+
+        }
+    }
+
+    public async Task totalStudents()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+            HttpResponseMessage response = await client.GetAsync($"api/Student/CountStudents");
+            if (response.IsSuccessStatusCode)
+            {
+                string contentResponse = await response.Content.ReadAsStringAsync();
+                CountStudents = JsonConvert.DeserializeObject<int>(contentResponse);
+                StateHasChanged();
+            }
+        }
+    }
+
+    public async Task totalTimeIn()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+            HttpResponseMessage response = await client.GetAsync($"api/Attendance/CountTimeIn");
+            if (response.IsSuccessStatusCode)
+            {
+                string contentResponse = await response.Content.ReadAsStringAsync();
+                countTimeIn = JsonConvert.DeserializeObject<int>(contentResponse);
+                StateHasChanged();
+            }
+        }
+    }
+
+    public async Task totalTimeOut()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+            HttpResponseMessage response = await client.GetAsync($"api/Attendance/CountTimeOut");
+            if (response.IsSuccessStatusCode)
+            {
+                string contentResponse = await response.Content.ReadAsStringAsync();
+                countTimeOut = JsonConvert.DeserializeObject<int>(contentResponse);
+                StateHasChanged();
+            }
+        }
+    }
+
+    public async Task TotalTimeInPerMonth()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+
+            HttpResponseMessage januaryResponse = await client.GetAsync($"api/Attendance/InJanuary");
+            HttpResponseMessage februaryResponse = await client.GetAsync($"api/Attendance/InFebruary");
+            HttpResponseMessage marchResponse = await client.GetAsync($"api/Attendance/InMarch");
+            HttpResponseMessage aprilResponse = await client.GetAsync($"api/Attendance/InApril");
+            HttpResponseMessage mayResponse = await client.GetAsync($"api/Attendance/InMay");
+            HttpResponseMessage juneResponse = await client.GetAsync($"api/Attendance/InJune");
+            HttpResponseMessage julyResponse = await client.GetAsync($"api/Attendance/InJuly");
+            HttpResponseMessage augustResponse = await client.GetAsync($"api/Attendance/InAugust");
+            HttpResponseMessage septemberResponse = await client.GetAsync($"api/Attendance/InSeptember");
+            HttpResponseMessage octoberResponse = await client.GetAsync($"api/Attendance/InOctober");
+            HttpResponseMessage novemberResponse = await client.GetAsync($"api/Attendance/InNovember");
+            HttpResponseMessage decemberResponse = await client.GetAsync($"api/Attendance/InDecember");
+
+            if (januaryResponse.IsSuccessStatusCode &&
+                februaryResponse.IsSuccessStatusCode &&
+                marchResponse.IsSuccessStatusCode &&
+                aprilResponse.IsSuccessStatusCode &&
+                mayResponse.IsSuccessStatusCode &&
+                juneResponse.IsSuccessStatusCode &&
+                julyResponse.IsSuccessStatusCode &&
+                augustResponse.IsSuccessStatusCode &&
+                septemberResponse.IsSuccessStatusCode &&
+                octoberResponse.IsSuccessStatusCode &&
+                novemberResponse.IsSuccessStatusCode &&
+                decemberResponse.IsSuccessStatusCode)
+            {
+                string januaryContentResponse = await januaryResponse.Content.ReadAsStringAsync();
+                string februaryContentResponse = await februaryResponse.Content.ReadAsStringAsync();
+                string marchContentResponse = await marchResponse.Content.ReadAsStringAsync();
+                string aprilContentResponse = await aprilResponse.Content.ReadAsStringAsync();
+                string mayContentResponse = await mayResponse.Content.ReadAsStringAsync();
+                string juneContentResponse = await juneResponse.Content.ReadAsStringAsync();
+                string julyContentResponse = await julyResponse.Content.ReadAsStringAsync();
+                string augustContentResponse = await augustResponse.Content.ReadAsStringAsync();
+                string septemberContentResponse = await septemberResponse.Content.ReadAsStringAsync();
+                string octoberContentResponse = await octoberResponse.Content.ReadAsStringAsync();
+                string novemberContentResponse = await novemberResponse.Content.ReadAsStringAsync();
+                string decemberContentResponse = await decemberResponse.Content.ReadAsStringAsync();
+
+                InJanuary = JsonConvert.DeserializeObject<int>(januaryContentResponse);
+                InFebruary = JsonConvert.DeserializeObject<int>(februaryContentResponse);
+                InMarch = JsonConvert.DeserializeObject<int>(marchContentResponse);
+                InApril = JsonConvert.DeserializeObject<int>(aprilContentResponse);
+                InMay = JsonConvert.DeserializeObject<int>(mayContentResponse);
+                InJune = JsonConvert.DeserializeObject<int>(juneContentResponse);
+                InJuly = JsonConvert.DeserializeObject<int>(julyContentResponse);
+                InAugust = JsonConvert.DeserializeObject<int>(augustContentResponse);
+                InSeptember = JsonConvert.DeserializeObject<int>(septemberContentResponse);
+                InOctober = JsonConvert.DeserializeObject<int>(octoberContentResponse);
+                InNovember = JsonConvert.DeserializeObject<int>(novemberContentResponse);
+                InDecember = JsonConvert.DeserializeObject<int>(decemberContentResponse);
+            }
+
+            StateHasChanged();
+        }
+    }
+
+    public async Task TotalTimeOutPerMonth()
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            client.BaseAddress = new Uri($"{Nav.BaseUri}");
+
+            HttpResponseMessage januaryResponse = await client.GetAsync($"api/Attendance/OutJanuary");
+            HttpResponseMessage februaryResponse = await client.GetAsync($"api/Attendance/OutFebruary");
+            HttpResponseMessage marchResponse = await client.GetAsync($"api/Attendance/OutMarch");
+            HttpResponseMessage aprilResponse = await client.GetAsync($"api/Attendance/OutApril");
+            HttpResponseMessage mayResponse = await client.GetAsync($"api/Attendance/OutMay");
+            HttpResponseMessage juneResponse = await client.GetAsync($"api/Attendance/OutJune");
+            HttpResponseMessage julyResponse = await client.GetAsync($"api/Attendance/OutJuly");
+            HttpResponseMessage augustResponse = await client.GetAsync($"api/Attendance/OutAugust");
+            HttpResponseMessage septemberResponse = await client.GetAsync($"api/Attendance/OutSeptember");
+            HttpResponseMessage octoberResponse = await client.GetAsync($"api/Attendance/OutOctober");
+            HttpResponseMessage novemberResponse = await client.GetAsync($"api/Attendance/OutNovember");
+            HttpResponseMessage decemberResponse = await client.GetAsync($"api/Attendance/OutDecember");
+
+            if (januaryResponse.IsSuccessStatusCode &&
+                februaryResponse.IsSuccessStatusCode &&
+                marchResponse.IsSuccessStatusCode &&
+                aprilResponse.IsSuccessStatusCode &&
+                mayResponse.IsSuccessStatusCode &&
+                juneResponse.IsSuccessStatusCode &&
+                julyResponse.IsSuccessStatusCode &&
+                augustResponse.IsSuccessStatusCode &&
+                septemberResponse.IsSuccessStatusCode &&
+                octoberResponse.IsSuccessStatusCode &&
+                novemberResponse.IsSuccessStatusCode &&
+                decemberResponse.IsSuccessStatusCode)
+            {
+                string januaryContentResponse = await januaryResponse.Content.ReadAsStringAsync();
+                string februaryContentResponse = await februaryResponse.Content.ReadAsStringAsync();
+                string marchContentResponse = await marchResponse.Content.ReadAsStringAsync();
+                string aprilContentResponse = await aprilResponse.Content.ReadAsStringAsync();
+                string mayContentResponse = await mayResponse.Content.ReadAsStringAsync();
+                string juneContentResponse = await juneResponse.Content.ReadAsStringAsync();
+                string julyContentResponse = await julyResponse.Content.ReadAsStringAsync();
+                string augustContentResponse = await augustResponse.Content.ReadAsStringAsync();
+                string septemberContentResponse = await septemberResponse.Content.ReadAsStringAsync();
+                string octoberContentResponse = await octoberResponse.Content.ReadAsStringAsync();
+                string novemberContentResponse = await novemberResponse.Content.ReadAsStringAsync();
+                string decemberContentResponse = await decemberResponse.Content.ReadAsStringAsync();
+
+                OutJanuary = JsonConvert.DeserializeObject<int>(januaryContentResponse);
+                OutFebruary = JsonConvert.DeserializeObject<int>(februaryContentResponse);
+                OutMarch = JsonConvert.DeserializeObject<int>(marchContentResponse);
+                OutApril = JsonConvert.DeserializeObject<int>(aprilContentResponse);
+                OutMay = JsonConvert.DeserializeObject<int>(mayContentResponse);
+                OutJune = JsonConvert.DeserializeObject<int>(juneContentResponse);
+                OutJuly = JsonConvert.DeserializeObject<int>(julyContentResponse);
+                OutAugust = JsonConvert.DeserializeObject<int>(augustContentResponse);
+                OutSeptember = JsonConvert.DeserializeObject<int>(septemberContentResponse);
+                OutOctober = JsonConvert.DeserializeObject<int>(octoberContentResponse);
+                OutNovember = JsonConvert.DeserializeObject<int>(novemberContentResponse);
+                OutDecember = JsonConvert.DeserializeObject<int>(decemberContentResponse);
+            }
+
+            StateHasChanged();
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await totalStudents();
+        await totalTimeIn();
+        await totalTimeOut();
+        await TotalTimeInPerMonth();
+        await TotalTimeOutPerMonth();
+        await UpdateChartData();
+
+        AttendancePerMonth = new List<ChartSeries>()
+            {
+                new ChartSeries(){Name="Attendance", Data=AttendancePerMonthValues.ToArray()},
+                // new ChartSeries(){Name="Time out", Data=AttendancePerMonthValues_2.ToArray()}
+            };
+        AttendancePerMonthOptions.YAxisFormat = "N0";
+
+        StateHasChanged();
+    }
+}

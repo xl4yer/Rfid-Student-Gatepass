@@ -1,0 +1,80 @@
+﻿@inject NavigationManager Nav
+@inject ILocalStorageService localStorage
+@using Rfid.Pages
+@inject IDialogService Dialog
+
+<MudAppBar Elevation="1" Style="background-color:#3F4756">
+    <MudIconButton Icon="@Icons.Material.Filled.Menu" Style="color:white" Edge="Edge.Start"
+                   OnClick="async () => await OnSidebarToggled.InvokeAsync()" />
+    @if (_isLightMode)
+    {
+        <MudIconButton Icon="@Icons.Material.Filled.Brightness4" Color="Color.Inherit" OnClick="ToggleTheme" />
+    }
+    else
+    {
+        <MudIconButton Icon="@Icons.Material.Filled.Brightness5" Color="Color.Inherit" OnClick="ToggleTheme" />
+    }
+    <MudSpacer />
+   
+    <MudIconButton Icon="@Icons.Material.Outlined.Settings" @onclick="Sett" Style="color:white" />
+    <MudLink @onclick="Logout" Underline="Underline.Always" Style="color:white">Log out</MudLink>
+</MudAppBar>
+
+@code {
+    private bool _isLightMode = true;
+    private MudTheme _currentTheme = new MudTheme();
+    [Parameter]
+    public EventCallback OnSidebarToggled { get; set; }
+    [Parameter]
+    public EventCallback<MudTheme> OnThemeToggled { get; set; }
+    public string name = "";
+
+    private async Task ToggleTheme()
+    {
+        _isLightMode = !_isLightMode;
+
+        _currentTheme = !_isLightMode ? GenerateDarkTheme() : new MudTheme();
+
+        await OnThemeToggled.InvokeAsync(_currentTheme);
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            name = await localStorage.GetItemAsStringAsync("name");
+            // ToggleTheme();
+        }
+    }
+
+    private MudTheme GenerateDarkTheme() =>
+     new MudTheme
+         {
+             Palette = new Palette()
+             {
+                 Black = "#272727", // Updated color
+                 Background = "#272727", // Updated color
+                 BackgroundGrey = "#272727", // Updated color
+                 Surface = "#272727",
+                 TextPrimary = "#ffffffb3",
+                 TextSecondary = "rgba(255,255,255, 0.50)",
+                 AppbarBackground = "#272727", // Updated color
+                 AppbarText = "#ffffffb3",
+                 DrawerBackground = "#272727", // Updated color
+                 DrawerText = "#ffffffb3",
+                 DrawerIcon = "#ffffffb3"
+             }
+         };
+
+    public async Task Logout()
+    {
+        await localStorage.RemoveItemAsync("token");
+        Nav.NavigateTo("/");
+    }
+
+    async Task Sett()
+    {
+        var parameters = new DialogParameters();
+        var options = new DialogOptions { MaxWidth = MaxWidth.ExtraSmall };
+        var dialog = await Dialog.Show<Settings>("Settings", parameters, options).Result;
+    }
+}
